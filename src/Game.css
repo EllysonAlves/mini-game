@@ -1,0 +1,13 @@
+
+  .letter {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+  }

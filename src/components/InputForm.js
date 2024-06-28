@@ -12,7 +12,7 @@ const InputForm = ({ onInputChange }) => {
   return (
     <div>
       <label>Digite a sequência:</label>
-      <input type="text" value={inputValue} onChange={handleChange} />
+      <input autoFocus  type="text" value={inputValue} onChange={handleChange} />
     </div>
   );
 };

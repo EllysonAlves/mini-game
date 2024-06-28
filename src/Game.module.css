@@ -1,0 +1,41 @@
+.gameContainer{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.425);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.gameContainer h1{
+    text-align: center;
+    color: white;
+}
+.gameContainer p {
+    text-align: center;
+    color: white;
+}
+.sequenceDisplay{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.letter {
+    font-size: 24px;
+    font-weight: bold;
+  }
+.correct {
+    color: green;
+  }
+  
+.incorrect {
+    color: red;
+  }
+
+.hiddenInput {
+    position: absolute;
+    left: -9999px; /* Move o elemento fora da tela */
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
